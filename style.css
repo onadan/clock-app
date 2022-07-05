@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Finlandica', sans-serif;
+  color: #fff;
+}
+
+body {
+  height: 100vh;
+  background: #eb3349;
+  background: linear-gradient(
+    to right,
+    #f45c43,
+    #eb3349
+  );
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid white; */
+}
+
+.time {
+  font-size: 10vw;
+  padding-bottom: 1.5vw;
+}
+
+.date{
+  font-size: 4.5vw;
+  margin-bottom: 1.5vw;
+}
+
+.greeting {
+  border-radius: 10vw;
+  backdrop-filter: blur(15px);
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+}
